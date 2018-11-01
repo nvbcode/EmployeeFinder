@@ -30,7 +30,7 @@ module.exports = function (app) {
 
 
         };
-        employees.push(req.body);
+        // employees.push(req.body);
         console.log(`check: ${diffArr}`);
         const minVal = Math.min.apply(null, diffArr);
         console.log(minVal);
