@@ -17,7 +17,7 @@ $(function () {
             $('.modal-title').empty();
             $('.modal-body').empty();
             $('.modal-title').text(`${res.name}`);
-            $('.modal-body').append(`<img src ="${res.photo}" alt="Employee Image" height ="200" width ="200"></img>`);
+            $('.modal-body').append(`<img src ="${res.photo}" class ="align-items-center" alt="Employee Image" height ="200" width ="200"></img>`);
             $('#alertModal').modal('show')
 
         }).catch(function (err) {
